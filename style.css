@@ -1,0 +1,53 @@
+nav {
+  background-color: #FFD07B;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  top: 0;
+  min-width: 100%;
+  height: 50px;
+  position: fixed;
+  z-index: 1;
+}
+
+ul li {
+  text-decoration: underline;
+  display: inline-block;
+  align-content: center;
+  padding: 0px 5px;
+  font-family: 'Teko', sans-serif;
+}
+
+#welcome-section {
+  min-height: 507px;
+  padding-top: 55px;
+  text-align: center;
+  background-color: #FF521B;
+  font-family: 'Teko', sans-serif;
+}
+
+#projects {
+  background-color: #FDB833;
+  text-align: center;
+  font-family: 'Teko', sans-serif; 
+}
+
+.projects {
+  list-style: square;
+  background-color: #FDB833;
+  font-family: 'Teko', sans-serif;
+  text-align: left;
+}
+
+footer {
+  background-color: #FF521B;
+  text-align: center;
+  font-family: 'Teko', sans-serif;
+  padding: 5px
+}
+
+@media only screen and (max-width: 480 px) {
+  nav {
+    display: none;
+  }
+}
